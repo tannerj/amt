@@ -1,0 +1,21 @@
+#projects_wrapper {
+  .project {
+    .image_wrapper {
+      float: left;
+      width: 200px;
+      padding: 0;
+      margin-right: 10px;
+    } 
+    
+    .info_wrapper {
+      float: right;
+      width: 740px;
+    }
+
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }  
+}
